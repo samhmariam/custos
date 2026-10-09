@@ -1,0 +1,19 @@
+# Agent skills and tooling — not part of the app
+.claude/
+.agents/
+skills-lock.json
+
+# Dependencies and build output (rebuilt in the image)
+node_modules/
+.next/
+out/
+
+# Local env and Clerk state — secrets come from Railway variables
+.env*
+.clerk/
+
+# VCS and editor
+.git/
+.vscode/
+*.tsbuildinfo
+next-env.d.ts
